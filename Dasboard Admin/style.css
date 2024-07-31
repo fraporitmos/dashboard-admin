@@ -73,15 +73,14 @@ span{
 
 a:hover{
     background: white;
-    border-radius: 40px;
 }
 
 a:hover i{
-    color: purple;
+    color: #190143;
     transition: 0.5s;
 }
 a:hover span{
-    color: purple;
+    color: #190143;
     transition: 0.5s;
 }
 .logo:hover{
@@ -164,19 +163,56 @@ a:hover span{
     justify-content: space-around;
 }
 
-.clients div{
-    width: 100%;
-    padding: 10px;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
 table{
-    margin-top: 36px;
-    margin:24px 0;
-    min-width:100%;
- 
+   border-collapse: collapse; 
+   width: 100%;
+   margin:24px
+}
+
+th, td{
+    border: 1px solid #BBBFBF;
+    text-align: center;
+    padding: 6px;
+}
+
+th{
+    background-color: #190143;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #e5e4ee;
+}
+
+td button{
+    background-color: #190143;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 4px 10px;
+}
+button i{
+    width: 24px;
+    font-size: 16px;
+}
+
+.eliminar{
+    background-color: white;
+    color: #190143;
+    border: 1px solid #190143;
+}
+
+.eliminar i{
+    color: #190143;
+}
+
+td button:hover{
+    background-color: #190143;
+}
+
+.eliminar:hover,
+.eliminar:hover i{
+    color:white;
 }
 
